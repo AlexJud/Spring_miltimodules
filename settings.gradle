@@ -1,0 +1,8 @@
+rootProject.name = 'mod7'
+
+include 'data-relation'
+include 'rest'
+include 'common'
+include 'restFlux'
+include 'process'
+

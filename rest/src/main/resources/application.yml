@@ -1,0 +1,20 @@
+spring:
+  h2:
+    console:
+      enabled: true
+
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/test
+#    username: postgres
+#    password: root
+#    driver-class-name: org.postgresql.Driver
+#  jpa:
+#    hibernate:
+#      ddl-auto: create-drop
+
+#
+#  spring.datasource.url= jdbc:postgresql://localhost:5432/springbootdb
+#  spring.datasource.username=postgres spring.datasource.password=postgres@123
+#  spring.jpa.hibernate.ddl-auto=create-drop
+#  entitymanager:
+#    packagesToScan: com.my.domain

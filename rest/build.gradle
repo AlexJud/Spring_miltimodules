@@ -1,0 +1,21 @@
+plugins {
+    id "org.springframework.boot" version "2.2.5.RELEASE"
+    id "io.spring.dependency-management" version "1.0.9.RELEASE"
+}
+
+group 'com.my2'
+
+dependencies {
+//    implementation 'org.springframework.boot:spring-boot-starter'
+    compile 'org.springframework.boot:spring-boot-starter-web'
+    compile project(':data-relation')
+    compile project(':common')
+    compile project(':process')
+
+    testCompile group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '2.2.5.RELEASE'
+
+}
+
+test {
+    useJUnitPlatform()
+}
